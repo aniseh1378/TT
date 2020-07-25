@@ -1,0 +1,93 @@
+e<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lets_go_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="314dip"
+                android:layout_marginTop="238dip"
+                android:text="نام کاربری "
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/entezar8" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="370dip"
+                android:layout_height="47dip"
+                android:layout_marginLeft="26dip"
+                android:layout_marginTop="13dip"
+                android:layout_marginBottom="0dip"
+                android:background="@drawable/round_button_drawable"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/lets_go_tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="325dip"
+                android:layout_marginTop="11dip"
+                android:text="رمز عبور "
+                android:textColor="#FFFFFF"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/entezar8" />
+
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="370dip"
+                android:layout_height="45dip"
+                android:layout_marginLeft="24dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="0dip"
+                android:background="@drawable/round_button_drawable"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="124dip"
+                android:layout_height="43dip"
+                android:layout_marginLeft="160dip"
+                android:layout_marginTop="25dip"
+                android:layout_marginBottom="0dip"
+                android:background="@drawable/round_button_drawable1"
+                android:text="ورود"
+                android:textAllCaps="true"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/fontnaz1"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
